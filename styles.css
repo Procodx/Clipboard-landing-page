@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+* {
+    font-family: 'Bai Jamjuree', sans-serif !important;
+}
+
+.hro-cont {
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.027)), url('../clipboard-landing-page-master/images/bg-header-desktop.png');
+}
+
+.container h1, h2, h5, h3 {
+    color: hsl(210, 10%, 33%) !important;
+}
+
+button {
+    background-color: hsl(171, 66%, 44%) !important;
+    border-radius: 50px !important;
+    border: none !important;
+    border-bottom: 3px solid rgba(27, 29, 29, 0.445) !important;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.first-button {
+    background-color: hsl(233, 100%, 69%) !important; 
+}
+
+.logo {
+    width: 50px;
+}
+
+footer {
+    background-color: hsl(210, 7%, 94%);
+}
+
+.link:hover {
+    color: hsl(171, 66%, 44%) !important;
+}
+
+.computer {
+    margin-left: -80px;
+    width: 50% !important;
+}
+
+@media only screen and (max-width: 576px) {
+    .computer, .device {
+        margin-left: 0px;
+        width: 100% !important;
+    }
+}
