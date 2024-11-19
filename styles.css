@@ -5,7 +5,9 @@
 }
 
 .hro-cont {
-    background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.027)), url('./clipboard-landing-page-master/images/bg-header-desktop.png');
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.027)), url('./images/bg-header-desktop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container h1, h2, h5, h3 {
@@ -14,9 +16,9 @@
 
 button {
     background-color: hsl(171, 66%, 44%) !important;
-    border-radius: 50px !important;
+    /* border-radius: 50px !important;
     border: none !important;
-    border-bottom: 3px solid rgba(27, 29, 29, 0.445) !important;
+    border-bottom: 3px solid rgba(27, 29, 29, 0.445) !important; */
 }
 
 button:hover {
